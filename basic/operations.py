@@ -1,3 +1,11 @@
+from operations import add, subtract, multiply, divide
+print("Addition:", add (10,5))
+print("Subtraction:", subtract (10,5))
+print("Multiplication:", multiply (10,5))
+print("Division:", divide (10,5))
+
+
+
 def add(number_1: float, number_2: float) -> float:
     """
     Add two numbers
@@ -32,4 +40,4 @@ def divide(number_1: float, number_2: float) -> float:
     :param number_2: second number
     :return: result of division
     """
-    return number_1 / number_2 
+    return number_1 / number_2
